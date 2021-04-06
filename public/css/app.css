@@ -1,0 +1,150 @@
+@CHARSET "UTF-8";
+body{	
+	background: #000000;  
+	background: -webkit-linear-gradient(to right, #e74c3c, #000000);  
+	background: linear-gradient(to right, #e74c3c, #000000); 
+	color: #eee;
+}
+.bg1{ 
+	background-color: #000000;  
+	background: url("/game/uploads/winner.gif") , linear-gradient(to right, #e74c3c, #000000);
+	background-repeat:no-repeat ;
+	min-height: 100vh;
+	margin: 0 auto;
+	background-position: center bottom;
+
+}
+.container{
+
+	margin-left: auto;
+    margin-right: auto;
+	padding: 10px 5px 10px 5px; 
+}
+
+#title{
+	text-align: center;
+	color: #fff;
+}
+#logo{
+ 	height: 150px;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+}
+
+.footer a{
+	display: block;
+	text-decoration: none;
+	color: #eee;
+	text-align: center;
+	background-color: #4e4e4e;
+}
+
+.button{
+	display: inline-block;
+	text-decoration: none;
+	color: #ddd;
+	text-align: center;
+	background-color: #3e3e3e;
+	border: 0px;
+	padding: 10px 15px 10px 15px; 
+	font-weight: bold;
+}
+
+.button:hover{
+	color: #eee;
+	background-color: #4e4e4e;
+}
+
+/* popup */
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.font{
+    color: #fff;
+}
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+/* login  */
+
+.boxed label {
+	display: inline-block;
+	width: 112px;
+	padding: 10px;
+	border: solid 2px #ccc;
+	transition: all 0.3s;
+  }
+  
+  .boxed input[type="radio"] {
+	display: none;
+  }
+  
